@@ -1,0 +1,221 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Home Section (Hero) */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero-section {
+    margin-top: 30px;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.home-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.home-description {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Tour Section */
+.tour-container {
+    padding: 3rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.input-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.input-box:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+.enter-vr-button {
+    padding: 12px 25px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.enter-vr-button:hover {
+    background-color: #45a049;
+}
+
+/* VR Scene Container */
+.vr-scene-container {
+    position: relative;
+}
+
+.exit-vr-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 12px 25px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.exit-vr-button:hover {
+    background-color: #d32f2f;
+}
+
+/* About Section */
+.about-container {
+    padding: 3rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-container p {
+    font-size: 1.125rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px;
+    }
+
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .home-description {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .tour-container,
+    .about-container {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
