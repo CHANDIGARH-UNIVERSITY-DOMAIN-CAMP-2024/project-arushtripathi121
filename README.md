@@ -47,7 +47,7 @@ To run this project, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/virtual-reality-tours.git
+   git clone https://github.com/arushtripathi121/vr-tours.git
    cd virtual-reality-tours
    ```
 
@@ -119,7 +119,7 @@ virtual-reality-tours/
 
 ## Code Author
 - **Your Name**  
-  GitHub: [your-username](https://github.com/your-username)
+  GitHub: [arushtripathi121](https://github.com/arushtripathi121)
 
 ---
 
@@ -128,6 +128,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ```
 
 ### Notes:
-1. Replace `your-username` with your actual GitHub username or link.
+1. Replace `arushtripathi121` with your actual GitHub username or link.
 2. Add a link to the `LICENSE` file if applicable.
 3. Ensure all instructions are accurate based on your setup.
