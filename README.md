@@ -1,6 +1,3 @@
-Here’s the refined **GitHub-friendly README** with proper formatting:
-
-```markdown
 # Virtual Reality Tours
 
 Virtual Reality Tours is a web application that provides immersive previews of popular destinations, allowing users to explore and experience them virtually. Built with React and styled with modern CSS, the app offers a professional and elegant user interface.
@@ -118,14 +115,10 @@ virtual-reality-tours/
 ---
 
 ## Code Author
-- **Your Name**  
+- **Arush Tripathi**  
   GitHub: [arushtripathi121](https://github.com/arushtripathi121)
 
 ---
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
 
 ### Notes:
 1. Replace `arushtripathi121` with your actual GitHub username or link.
