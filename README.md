@@ -119,8 +119,3 @@ virtual-reality-tours/
   GitHub: [arushtripathi121](https://github.com/arushtripathi121)
 
 ---
-
-### Notes:
-1. Replace `arushtripathi121` with your actual GitHub username or link.
-2. Add a link to the `LICENSE` file if applicable.
-3. Ensure all instructions are accurate based on your setup.
